@@ -1,0 +1,95 @@
+{
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "text-overflow": "ellipsis",
+        "overflow": "hidden",
+        "white-space": "nowrap",
+        "border-radius": "16px",
+        "padding": "4px 8px 5px 8px",
+        "display": "flex",
+        "align-items": "center",
+        "margin": "4px 4px 4px 4px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "attributes": {
+        "class": {
+          "operands": [
+            {
+              "operands": [
+                "@currentField",
+                "Choice 1"
+              ],
+              "operator": "=="
+            },
+            "sp-css-backgroundColor-BgRed sp-css-borderColor-WhiteFont sp-css-color-WhiteFont",
+            {
+              "operands": [
+                {
+                  "operands": [
+                    "@currentField",
+                    "Choice 2"
+                  ],
+                  "operator": "=="
+                },
+                "sp-css-backgroundColor-BgGreen sp-css-borderColor-WhiteFont sp-field-fontSizeSmall sp-css-color-WhiteFont",
+                {
+                  "operands": [
+                    {
+                      "operands": [
+                        "@currentField",
+                        "Choice 3"
+                      ],
+                      "operator": "=="
+                    },
+                    "sp-css-backgroundColor-BgBlue sp-css-borderColor-WhiteFont sp-field-fontSizeSmall sp-css-color-WhiteFont",
+                    {
+                      "operands": [
+                        {
+                          "operands": [
+                            "@currentField",
+                            "Choice 4"
+                          ],
+                          "operator": "=="
+                        },
+                        "sp-css-backgroundColor-BgGold sp-css-borderColor-GoldFont sp-field-fontSizeSmall sp-css-color-GoldFont",
+                        {
+                          "operands": [
+                            {
+                              "operands": [
+                                "@currentField",
+                                ""
+                              ],
+                              "operator": "=="
+                            },
+                            "",
+                            "sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary"
+                          ],
+                          "operator": ":"
+                        }
+                      ],
+                      "operator": ":"
+                    }
+                  ],
+                  "operator": ":"
+                }
+              ],
+              "operator": ":"
+            }
+          ],
+          "operator": ":"
+        }
+      },
+      "txtContent": "@currentField"
+    }
+  ],
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-wrap": "wrap"
+  },
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "templateId": "BgColorChoicePill"
+}

@@ -1,0 +1,25 @@
+{
+    "assignments":
+    [
+        {
+            "value" : "Choice 1",
+            "class" : "sp-css-backgroundColor-BgRed sp-css-borderColor-WhiteFont sp-css-color-WhiteFont"
+        },
+        {
+            "value" : "Choice 2",
+            "class" : "sp-css-backgroundColor-BgGreen sp-css-borderColor-WhiteFont sp-field-fontSizeSmall sp-css-color-WhiteFont"
+        },
+        {
+            "value" : "Choice 3",
+            "class" : "sp-css-backgroundColor-BgBlue sp-css-borderColor-WhiteFont sp-field-fontSizeSmall sp-css-color-WhiteFont"
+        },
+        {
+            "value" : "Choice 4",
+            "class" : "sp-css-backgroundColor-BgGold sp-css-borderColor-GoldFont sp-field-fontSizeSmall sp-css-color-GoldFont"
+        },
+        {
+            "value" : "",
+            "class" : "sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary"
+        }
+    ]
+}
